@@ -1,4 +1,7 @@
-function seed() {}
+function seed(...statePattern) {
+  return statePattern;
+}
+
 
 function same([x, y], [j, k]) {}
 
